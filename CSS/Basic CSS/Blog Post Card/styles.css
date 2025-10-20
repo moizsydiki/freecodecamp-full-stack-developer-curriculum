@@ -2,8 +2,8 @@
   width: 300px;
   height: 380px;
   text-align: left;
-  border-radius: 15px;
-  background-color: white;
+  border-radius: 10px;
+  background-color: #acc8e5;
 }
 
 .post-img {
@@ -38,7 +38,7 @@
   border-radius: 6px;
   display: inline-block;
   text-decoration: none;
-  margin: 10px 5px 5px 180px;
+  margin: -8px -8px 5px 180px;
   background-color: #6d241a;
 }
 
