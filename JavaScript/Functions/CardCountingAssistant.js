@@ -1,14 +1,23 @@
+// ** start of script.js **
+
 let count = 0;
 
 function cc(card) {
-  if ((card === 2) | (card === 3) | (card === 4) | (card === 6)) {
-    return `${--card} Bet`;
-  } else if (card === "J" | card === "Q" | card === "K" | card === "A") {
-    return `${card} Hold`
+  if (card === 2 || card === 3 || card === 4 || card === 5 || card === 6) {
+    count++;
+  } else if (
+    card === 10 ||
+    card === "J" ||
+    card === "Q" ||
+    card === "K" ||
+    card === "A"
+  ) {
+    count--;
   }
-  
-  else (card === 7) | (card === 8) | (card === 9);
-  return `${count} Hold`;
+
+  return count > 0 ? `${count} Bet` : `${count} Hold`;
 }
 
-console.log(cc(9));
+console.log(cc("A"));
+
+// ** end of script.js **
