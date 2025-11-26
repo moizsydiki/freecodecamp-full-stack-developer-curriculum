@@ -18,7 +18,7 @@ function removeLastLunch(arr) {
     console.log(`${removed} removed from the end of the lunch menu.`);
     return arr;
   } else {
-    console.log("No lunches to remove.");
+    return console.log("No lunches to remove.");
   }
 }
 
