@@ -1,0 +1,51 @@
+body {
+  height: 100vh;
+  text-align: center;
+  background-color: #f0f0f0;
+}
+
+.settings-card {
+  margin: auto;
+  padding: 20px;
+  text-align: left;
+  max-width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  text-align: center;
+}
+
+label {
+  display: block;
+  cursor: pointer;
+  margin: 8px auto;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  appearance: none;
+  margin-right: 15px;
+  border-radius: 4px;
+  transition: all 0.3s;
+  vertical-align: middle;
+  background-color: white;
+  border: 2px solid #f1be32;
+}
+
+input[type="checkbox"]:checked {
+  border-color: #e2a60d;
+  background-color: #f1be32;
+}
+
+input[type="checkbox"]:checked::after {
+  content: "✓";
+  display: block;
+  color: white;
+  font-weight: bold;
+  line-height: 20px;
+  text-align: center;
+}
