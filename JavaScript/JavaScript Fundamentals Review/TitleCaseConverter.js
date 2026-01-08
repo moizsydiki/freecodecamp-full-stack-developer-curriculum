@@ -1,6 +1,6 @@
 function titleCase(str) {
   const result = str
-    .trim()
+    // .trim()
     .split(/\s+/)
     .map((word) => word[0].toUpperCase() + word.slice(1).toLowerCase())
     .join(" ");
