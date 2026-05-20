@@ -102,6 +102,8 @@ openTaskFormBtn.addEventListener("click", () =>
   taskForm.classList.toggle("hidden"),
 );
 
+
+
 closeTaskFormBtn.addEventListener("click", () => {
   const formInputsContainValues =
     titleInput.value || dateInput.value || descriptionInput.value;

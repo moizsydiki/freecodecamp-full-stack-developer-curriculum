@@ -18,17 +18,17 @@
         <form class="task-form hidden" id="task-form">
           <div class="task-form-header">
             <button
-              id="close-task-form-btn"
-              class="close-task-form-btn"
               type="button"
               aria-label="close"
+              id="close-task-form-btn"
+              class="close-task-form-btn"
             >
               <svg
-                class="close-icon"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 48 48"
                 width="48px"
                 height="48px"
+                class="close-icon"
+                viewBox="0 0 48 48"
+                xmlns="http://www.w3.org/2000/svg"
               >
                 <path
                   fill="#F44336"
@@ -47,10 +47,10 @@
             <label class="task-form-label" for="title-input">Title</label>
             <input
               required
-              type="text"
-              class="form-control"
-              id="title-input"
               value=""
+              type="text"
+              id="title-input"
+              class="form-control"
             />
             <label class="task-form-label" for="date-input">Date</label>
             <input type="date" class="form-control" id="date-input" value="" />
@@ -58,17 +58,17 @@
               >Description</label
             >
             <textarea
+              rows="5"
+              cols="30"
               class="form-control"
               id="description-input"
-              cols="30"
-              rows="5"
             ></textarea>
           </div>
           <div class="task-form-footer">
             <button
-              id="add-or-update-task-btn"
-              class="btn large-btn"
               type="submit"
+              class="btn large-btn"
+              id="add-or-update-task-btn"
             >
               Add Task
             </button>
