@@ -56,3 +56,11 @@ class ProjectIdeaBoard {
     return result;
   }
 }
+
+class myClass {
+  sayHello() {
+    return "Hello!";
+  }
+}
+
+console.log(myClass.sayHello());
