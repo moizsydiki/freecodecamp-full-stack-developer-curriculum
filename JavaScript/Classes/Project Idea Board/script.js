@@ -57,10 +57,26 @@ class ProjectIdeaBoard {
   }
 }
 
-class myClass {
-  sayHello() {
-    return "Hello!";
-  }
-}
+// const repeatingStr = (str) => {
+//   if (str === "") return "";
+//   return repeatingStr(str.slice(1)) + str[0];
+// };
 
-console.log(myClass.sayHello());
+// console.log(repeatingStr("Hello, World!")); // Output: !dlroW ,olleH
+
+// const checkEvenOrOdd = (number) => {
+//   if (number % 2 === 0) {
+//     return "Even";
+//   } else {
+//     return "Odd";
+//   }
+// };
+
+// console.log(checkEvenOrOdd(87)); // Output: Odd
+
+// const reverseString = (str) => {
+//   const result = str.split("").reverse("").join("");
+//   return result;
+// };
+
+// console.log(reverseString("Hello World!")); // Output: !dlroW ,olleH
