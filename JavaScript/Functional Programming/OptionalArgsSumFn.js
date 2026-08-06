@@ -1,4 +1,4 @@
-function addTogether() {
+const addTogether = () => {
   const [first, second] = arguments;
 
   if (typeof first !== "number") {
@@ -20,4 +20,4 @@ function addTogether() {
 
     return first + third;
   };
-}
+};
